@@ -4,21 +4,30 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .clearfix::after{
   content: "";
   display: table;
   clear: both;
 }
 
-nav {
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+/********* ///GLOBAL ***********/
+.nav {
   position: fixed;
-  width: 100vw;
+  width: 100vw; 
+  background-color: aqua;
   min-width: 1200px;
   height: 70px;
   display: inline-block;
   line-height: 70px;
-  background-color: aqua;
-  display: inline-block;
 }
 
 nav ul li a{
@@ -50,6 +59,36 @@ nav ul li {
   min-width: 450px
 }
 
-.btn{
+button{
   background-color: #0061FF;
+  padding:10px 20px;
+  border: 0;
+  color: white;
 }
+
+nav div a{
+  vertical-align: middle;
+  border-left: 20px;
+  text-decoration: none;
+  color:black;
+  text-align: center;
+}
+
+nav div a:hover {
+  border-bottom: 1px solid black;
+}
+
+/* ************ /HEADER************ */
+
+.jumbotron {
+  background-color: #B4D0E7;
+  height: 600px;
+  margin: auto ;
+}
+
+.jumbotron h1{
+  font-size: 70px;
+  padding-top: 70px;
+  font-weight: 800;
+}
+
