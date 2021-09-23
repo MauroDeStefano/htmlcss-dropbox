@@ -9,3 +9,47 @@
   display: table;
   clear: both;
 }
+
+nav {
+  position: fixed;
+  width: 100vw;
+  min-width: 1200px;
+  height: 70px;
+  display: inline-block;
+  line-height: 70px;
+  background-color: aqua;
+  display: inline-block;
+}
+
+nav ul li a{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 70px;
+}
+
+nav ul, nav div{
+  display: inline-block;
+}
+
+nav ul li {
+  vertical-align: center;
+  display: inline-block; 
+  margin: 0 20px;
+}
+
+.left-nav {
+
+  float: left;
+  overflow: hidden;
+  min-width: 500px;
+}
+
+.right-nav{
+  float: right;
+  overflow: hidden;
+  min-width: 450px
+}
+
+.btn{
+  background-color: #0061FF;
+}
