@@ -25,10 +25,11 @@ nav {
   position: fixed;
   width: 100%; 
   min-width: 800px;
+  background-color: white;
   height: 70px;
   line-height: 70px;
   overflow:hidden;
-  background-color: white;
+  z-index: 999;
 }
 
 nav ul li a{
@@ -146,6 +147,3 @@ nav div ul li a:hover {
   margin-bottom: 50px;
 }
 
-.business-table span::after{
-  
-}
