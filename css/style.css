@@ -15,19 +15,20 @@ body{
 }
 
 .container{
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 
 /********* ///GLOBAL ***********/
-.nav {
+
+nav {
   position: fixed;
   width: 100%; 
-  min-width: 2000px;
-  background-color: aqua;
+  min-width: 800px;
   height: 70px;
   line-height: 70px;
-  overflow: hidden;
+  overflow:hidden;
+  background-color: white;
 }
 
 nav ul li a{
@@ -47,16 +48,13 @@ nav ul li {
 }
 
 .left-nav {
-
   float: left;
   overflow: hidden;
-  min-width: 500px;
 }
 
 .right-nav{
   float: right;
   overflow: hidden;
-  min-width: 450px
 }
 
 button{
@@ -78,8 +76,9 @@ nav div a{
   text-align: center;
 }
 
-nav div li:hover {
-  border-bottom: 1px solid black;
+nav div ul li a:hover {
+  z-index: 20;
+  border-bottom: 5px solid black;
 }
 
 #img-logo{
@@ -90,9 +89,14 @@ nav div li:hover {
 
 .jumbotron {
   background-color: #B4D0E7;
-  height: 600px;
+  height: 680px;
   margin: auto ;
   margin-bottom: 150px;
+}
+
+.container-jumbo{
+  width: 80%;
+  margin: auto;
 }
 
 .jumbotron h1{
@@ -108,7 +112,7 @@ nav div li:hover {
 
 .left-jumbotron{
   position: relative;
-  width: 30%;
+  width: 25%;
   margin-right: 80px;
 }
 
@@ -130,11 +134,18 @@ nav div li:hover {
 }
 
 .fa-arrow-down{
-  position: absolute;
-  left: 250px;
-  bottom: 60px;
   font-size: 30px;
   color: #000;
+  margin-top: 40px;
 }
 
 /*************  Jumbotron ************/
+
+.container h2{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.business-table span::after{
+  
+}
