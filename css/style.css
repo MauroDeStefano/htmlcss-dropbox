@@ -322,18 +322,20 @@ nav div ul li :hover {
 
 .teams-title{
   border-bottom: 30px;
+  height: 200px;
 }
 
 .teams-box{
+  margin-top: 30px;
   background-color: cornflowerblue;
-  height: 500px;
+  height: 25vw;
 }
 
 .teams-left{
   background-color: darkgreen;
   float: left;
-  height: 500px;
-  width: 30%;
+  height: 25vw;
+  width: 25vw;
 }
 
 .teams-mid{
@@ -343,5 +345,60 @@ nav div ul li :hover {
 .teams-right{
   background-color: firebrick;
   float: right;
-  height: 500px;
+  height: 25vw;
+  width: 25vw;
 }
+
+.small-box {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  float: left;
+  
+}
+
+.small-box svg{
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: invert(100%);
+}
+
+.designit{
+  background-color: #A2D39B;
+  border: 8px solid #D1E9CD;
+}
+
+.asu{
+  background-color: #61082C;
+}
+
+.florida{
+  background-color: #1D93CE;
+}
+
+.topps{
+  background-color: #F91C1D;
+}
+
+.wolrd-by{
+  background-color: #D5021F;
+}
+
+.hearts{
+  background-color: #B4D0E7;
+}
+
+.lonely-p{
+  background-color: #0D2481;
+}
+
+.clear-ch{
+  background-color: #FED830;
+}
+
+
+
+
