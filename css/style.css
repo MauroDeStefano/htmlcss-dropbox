@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Open Sans', sans-serif;
 }
@@ -418,3 +422,39 @@ nav div ul li :hover {
 
 /******** PORTA DROPBO NELLA TUA AZIENDA ********/
 
+.business-in{
+  width: 100%;
+  background-color: #B4D0E7;
+  height: 35vh ; 
+}
+
+.business-in-title, .business-in-button{
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.business-in-title{
+  float: left;
+}
+
+.business-in-button{
+  float: right;
+}
+
+.business-in-title h2, .business-in-button button{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.business-in-button button{
+  width: 300px;
+  background-color: white;
+  color: #000;
+}
+
+.business-in-title h2{
+  color: #61082C;
+}
