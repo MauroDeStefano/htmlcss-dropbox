@@ -327,7 +327,7 @@ nav div ul li :hover {
 
 .teams-box{
   margin-top: 30px;
-  background-color: cornflowerblue;
+  background-color: #F5F5F5;
   height: 25vw;
 }
 
@@ -339,11 +339,27 @@ nav div ul li :hover {
 }
 
 .teams-mid{
-  background-color: darkkhaki;
+  background-color: #F5F5F5;
+  display: inline-block;
+  width: 48vw;
+  height: 25vw;
+  padding: 50px;
+  overflow: auto;
+
+}
+
+.title-mid{
+  width: 60px;
+  border-bottom: 1px solid gray;
+
+}
+
+.teams-mid p {
+  margin: 40px 0;
 }
 
 .teams-right{
-  background-color: firebrick;
+  
   float: right;
   height: 25vw;
   width: 25vw;
@@ -400,5 +416,5 @@ nav div ul li :hover {
 }
 
 
-
+/******** PORTA DROPBO NELLA TUA AZIENDA ********/
 
