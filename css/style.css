@@ -153,6 +153,30 @@ nav button{
   margin-top: 40px;
 }
 
+.closed-menu{
+  position: relative;
+}
+
+.closed-menu:hover .closed-menu ul{
+  display: inline;
+  z-index: 888;
+}
+
+.right-nav .closed-menu ul{
+  width: 250px;
+  height: 120px;
+  display: none;
+  background-color: white;
+  line-height: 50px;
+  font-size: 12px;
+  position: absolute;
+  bottom: -100px;
+  left: -20px;
+  padding: 20px;
+}
+
+
+
 /*************  Jumbotron ************/
 
 .jumbotron.container h2{
@@ -536,6 +560,10 @@ nav button{
   display: inline-block;
   line-height: 60px;
   padding: 5px 0;
+}
+
+.risposta-faq p{
+  color: gray;
 }
 
 .corta i, .lunga i{
