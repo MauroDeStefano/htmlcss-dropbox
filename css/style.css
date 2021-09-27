@@ -47,7 +47,7 @@ nav {
   min-width: 1200px;
   background-color: white;
   height: 72px;
-  line-height: 70px;
+  line-height: 68px;
 }
 
 nav ul, nav div, nav ul li a{
@@ -93,11 +93,11 @@ nav div ul li:hover{
 }
 
 #img-logo{
-  margin: 0 25px;
+  margin: 0 35px;
 }
 
 nav button{
-  margin-right: 30px;
+  margin-right: 35px;
 }
 
 /* ************ /HEADER************ */
@@ -159,17 +159,12 @@ nav button{
   position: relative;
 }
 
-.closed-menu:hover .closed-menu ul{
-  display: inline;
-  z-index: 888;
-}
-
 .right-nav .closed-menu ul{
   width: 250px;
   height: 120px;
-  display: none;
+  visibility: hidden;
   background-color: white;
-  line-height: 50px;
+  line-height: 49px;
   font-size: 12px;
   position: absolute;
   bottom: -100px;
@@ -177,7 +172,9 @@ nav button{
   padding: 20px;
 }
 
-
+.closed-menu:hover.closed-menu ul{
+  visibility: visible;
+}
 
 /*************  Jumbotron ************/
 
