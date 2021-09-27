@@ -29,6 +29,8 @@ a{
 
 button:hover{
   cursor: pointer;
+  background-color: white;
+  color: #000;
 }
 
 /********* ///GLOBAL ***********/
