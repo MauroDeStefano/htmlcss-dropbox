@@ -36,6 +36,7 @@ button:hover{
 header{
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 
 nav {
@@ -86,7 +87,7 @@ nav div a{
 
 nav div ul li:hover{
   z-index: 20;
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid black;
 }
 
 #img-logo{
@@ -278,23 +279,46 @@ nav button{
 }
 
 .addon{
-  width: 5px;
-  height: 10px;
+  height: 30px;
   float: left;
+  margin-right: 5px;
 }
 
 .single::before{
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: "\f57d ";
+  content: "\f007";
 }
 
 .building::before{
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: "\f57d ";
+  content: "\f1ad ";
 }
 
+.file-paper::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f07b ";
+}
+
+.pencil::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f303 ";
+}
+
+.plural::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f234 ";
+}
+
+.smile::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f118 ";
+}
 
 
 /*********** CONTACT A PARTNER ************/
