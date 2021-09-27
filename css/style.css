@@ -154,7 +154,7 @@ nav div ul li :hover {
 
 /*************  Jumbotron ************/
 
-.container h2{
+.jumbotron.container h2{
   font-size: 40px;
   margin-bottom: 50px;
 }
@@ -458,3 +458,80 @@ nav div ul li :hover {
 .business-in-title h2{
   color: #61082C;
 }
+
+/* ************* FAQ ************** */
+
+
+.faq{
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.line {
+  padding-bottom: 50px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.risposta-faq{
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.risposta-faq h4{
+  display: inline-block;
+  line-height: 60px;
+  padding: 5px 0;
+}
+
+.corta i, .lunga i{
+  position: absolute;
+  right: 35px;
+  top: 20px;
+}
+
+.risposta-faq:hover{
+  height: 180px;
+}
+
+.separation-line{
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.risposta-faq:hover i{
+  transform: rotate(180deg);
+}
+
+/**************** ///FAQ ****************/
+
+footer{
+  width: 100%;
+  background-color: black;
+  height: 500px;
+}
+
+.foot ul{
+  padding-top: 30px;
+  color: white;
+  float: left;
+  list-style: none;
+  margin: 35px;
+}
+
+.foot ul li{
+  line-height: 30px;
+  margin-right: 35px;
+}
+
+footer .foot:first-child{
+  margin-left: 10%;
+}
+
+.foot ul li:first-child{
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
