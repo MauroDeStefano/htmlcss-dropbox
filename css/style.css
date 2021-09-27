@@ -197,12 +197,14 @@ nav button{
   width: 100%;
   text-align: center;
   line-height: 35px;
+  font-weight: 600;
 }
 
 .business-table .business-box h3{
   display: block;
   margin-top: 20px;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
+  font-weight: 700;
 }
 
 .business-table .business-box h4{
@@ -219,7 +221,8 @@ nav button{
 
 .kind-payment{
   color: #B4D0E7;
-  margin-bottom: 30px;
+  margin: 10px 0 30px;
+  font-size: 12px;
 }
 
 .box-in-box li{
@@ -235,7 +238,7 @@ nav button{
   width: 100%;
 }
 
-.box-in-box span{
+.box-in-box .border{
   line-height: 70px;
   border-bottom: 1px solid lightgray;
   padding-bottom: 30px;
@@ -273,6 +276,26 @@ nav button{
 .box-in-box p{
   margin: 50px 0;
 }
+
+.addon{
+  width: 5px;
+  height: 10px;
+  float: left;
+}
+
+.single::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f57d ";
+}
+
+.building::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f57d ";
+}
+
+
 
 /*********** CONTACT A PARTNER ************/
 
@@ -460,6 +483,7 @@ nav button{
   color: #000;
 }
 
+
 .business-in-title h2{
   color: #61082C;
 }
@@ -563,6 +587,7 @@ footer .foot:first-child, .lang{
   font-weight: 900;
   content: "\f57d ";
 }
+
 .lang p::after{
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
